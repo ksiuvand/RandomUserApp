@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">RandomUserApp</string>
+    <string name="app_name">Random User</string>
+
+    <string name="phone_number_template">Номер телефона: %s</string>
+    <string name="address_template">Адрес: %s</string>
+    <string name="name_template">ФИО: %s %s</string>
+
+    <string name="user_details">Детали пользователя</string>
+    <string name="back">Назад</string>
+
+    <string name="refresh_list">Обновить список</string>
+
+    <string name="uuid">UUID</string>
+    <string name="username">Ник пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="age">Возраст</string>
+    <string name="nat">Национальность</string>
+    <string name="time_zone">Временная зона</string>
+    <string name="street">Улица</string>
+    <string name="city">Город</string>
+    <string name="state">Штат</string>
+    <string name="country">Страна</string>
+    <string name="user_gender">Пол</string>
+    <string name="user_full_name">Полное имя</string>
+    <string name="phone">Телефон</string>
+
+    <string name="email_app_not_found">"Нет почтового приложения"</string>
+    <string name="maps_app_not_found">Нет приложения карты</string>
+    <string name="call_app_not_found">Нет приложения для звонков</string>
+
+    <string name="maps_open">Показать на карте</string>
 </resources>

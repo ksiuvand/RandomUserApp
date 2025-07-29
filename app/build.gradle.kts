@@ -1,7 +1,9 @@
 plugins {
+    id("org.jetbrains.kotlin.kapt")
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -56,4 +58,18 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson)
+    implementation(libs.okhttp.logging)
+
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    kapt(libs.room.compiler)
+
+    implementation(libs.hilt.navigation.compose)
+    implementation(libs.coil.compose)
+
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.retrofit.serialization)
 }
